@@ -24,8 +24,8 @@ public class Replace_pi {
 			return str;
 		}
 
-		if (str.charAt(0) == 'p' && 
-            str.charAt(1) == 'i') {
+		if (str.charAt(0) == 'p' && str.charAt(1) == 'i') {
+			
 			return "3.14" + replacePi(str.substring(2, str.length()));
 		}
 
@@ -35,6 +35,7 @@ public class Replace_pi {
     public static void main( String [] args){
         Scanner sc = new Scanner( System.in );
         String str = sc.nextLine();
+	sc.close();
         System.out.println(replacePi(str));
     }
 }
