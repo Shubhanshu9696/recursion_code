@@ -25,7 +25,8 @@ public class convertIntegertoString {
 
 		if (n==0){
 			str="0";
-			return str ;}
+			return str ;
+		}
 		
 		if(n>=1){
 			while (n>0){
@@ -43,6 +44,7 @@ public class convertIntegertoString {
 		int n = sc.nextInt();
 		String str = "";
 		sc.close();
+		System.out.println("after converting integer into string");
 		System.out.println(convertString(n, str));
 	}
 }
