@@ -1,33 +1,3 @@
-// package recursion ;
-/**
- * trycode
- */
-// public class trycode {
-
-// 	public void eat() {
-// 		System.out.println("i am eating ");
-// 	}
-// 	public void run () {
-// 		System.out.println( "i am running ");
-// 	}
-
-// 	public static void main(String[] args) {
-// 		System.out.println("i am in ");	
-// 		trycode var = new trycode();
-// 		var.eat();
-// 		var.run();
-// 		birds v = new birds();
-// 		v.fly();
-// 	}
-// }	
-
-// class birds{
-// 	void fly() {
-// 		System.out.println("birds can fly");
-// 	}
-// }
-
-
 /*#### Write a recursive function to convert a given string into the number it represents. That is input will be a numeric string that contains only numbers, you need to convert the string into corresponding integer and return the answer.
 
 ##### Input format : 
@@ -74,6 +44,5 @@ public class convertIntegertoString {
 		String str = "";
 		sc.close();
 		System.out.println(convertString(n, str));
-
 	}
 }
